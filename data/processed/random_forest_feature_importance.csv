@@ -1,0 +1,57 @@
+target,feature,importance,family
+future_vol_5d,abs_return_1d,0.0015733074825132905,Market history
+future_vol_5d,past_vol_5d,0.16343295092797747,Market history
+future_vol_5d,past_vol_21d,0.5462811879965387,Market history
+future_vol_5d,past_return_5d,0.0776158215883087,Market history
+future_vol_5d,past_return_21d,0.03247702364276673,Market history
+future_vol_5d,volume_change_1d,0.0014510506009800994,Market history
+future_vol_5d,volume_change_5d,0.002961636639090871,Market history
+future_vol_5d,vix,0.03899410086571417,VIX
+future_vol_5d,vix_change_5d,0.005703392524529287,VIX
+future_vol_5d,vix_avg_21d,0.00915249022978346,VIX
+future_vol_5d,vix_z_252d,0.045988548242932026,VIX
+future_vol_5d,vix_spike_95,0.0015579731733278753,VIX
+future_vol_5d,epu,0.0031753517554649734,EPU
+future_vol_5d,epu_change_5d,0.0031304887567538266,EPU
+future_vol_5d,epu_avg_21d,0.026206176418736363,EPU
+future_vol_5d,epu_z_252d,0.002718749460680155,EPU
+future_vol_5d,epu_spike_95,2.940844049683584e-05,EPU
+future_vol_5d,emeu,0.003961460971151803,EMEU
+future_vol_5d,emeu_change_5d,0.0032395175550569205,EMEU
+future_vol_5d,emeu_avg_21d,0.014770220425916258,EMEU
+future_vol_5d,emeu_z_252d,0.004694567630209357,EMEU
+future_vol_5d,emeu_spike_95,0.00010143819839712322,EMEU
+future_vol_5d,ticker_SPY,0.0012554223755360736,Ticker indicator
+future_vol_5d,ticker_XLE,0.00629858725313715,Ticker indicator
+future_vol_5d,ticker_XLF,0.0017184344355684234,Ticker indicator
+future_vol_5d,ticker_XLI,3.210933677243444e-05,Ticker indicator
+future_vol_5d,ticker_XLK,8.287858209327326e-05,Ticker indicator
+future_vol_5d,ticker_XLV,0.0013957044895664494,Ticker indicator
+future_vol_21d,abs_return_1d,0.0006820671726325184,Market history
+future_vol_21d,past_vol_5d,0.12327202313648196,Market history
+future_vol_21d,past_vol_21d,0.5969144467556649,Market history
+future_vol_21d,past_return_5d,0.03284595181645793,Market history
+future_vol_21d,past_return_21d,0.014807683500096284,Market history
+future_vol_21d,volume_change_1d,0.0008918975802967999,Market history
+future_vol_21d,volume_change_5d,0.0029486476808056575,Market history
+future_vol_21d,vix,0.02980678679065856,VIX
+future_vol_21d,vix_change_5d,0.009705468657361426,VIX
+future_vol_21d,vix_avg_21d,0.030250536855679723,VIX
+future_vol_21d,vix_z_252d,0.04644041609841119,VIX
+future_vol_21d,vix_spike_95,0.0031113491670190707,VIX
+future_vol_21d,epu,0.002850103561252036,EPU
+future_vol_21d,epu_change_5d,0.001379778713978969,EPU
+future_vol_21d,epu_avg_21d,0.054604015039622644,EPU
+future_vol_21d,epu_z_252d,0.0037231804820784735,EPU
+future_vol_21d,epu_spike_95,0.00014594552065207175,EPU
+future_vol_21d,emeu,0.004286137492965628,EMEU
+future_vol_21d,emeu_change_5d,0.001623895281034487,EMEU
+future_vol_21d,emeu_avg_21d,0.0165898627793991,EMEU
+future_vol_21d,emeu_z_252d,0.005474609927005418,EMEU
+future_vol_21d,emeu_spike_95,6.288939431182241e-05,EMEU
+future_vol_21d,ticker_SPY,0.0017380581822719825,Ticker indicator
+future_vol_21d,ticker_XLE,0.008481511291201933,Ticker indicator
+future_vol_21d,ticker_XLF,0.00403881440628671,Ticker indicator
+future_vol_21d,ticker_XLI,0.00010621188823674382,Ticker indicator
+future_vol_21d,ticker_XLK,0.0002508089881432821,Ticker indicator
+future_vol_21d,ticker_XLV,0.002966901839992723,Ticker indicator

@@ -1,0 +1,11 @@
+target,family,importance
+future_vol_21d,Market history,0.772362717642436
+future_vol_21d,VIX,0.11931455756912997
+future_vol_21d,EPU,0.06270302331758419
+future_vol_21d,EMEU,0.02803739487471646
+future_vol_21d,Ticker indicator,0.017582306596133374
+future_vol_5d,Market history,0.8257929788781758
+future_vol_5d,VIX,0.10139650503628682
+future_vol_5d,EPU,0.03526017483213215
+future_vol_5d,EMEU,0.02676720478073146
+future_vol_5d,Ticker indicator,0.010783136472673803

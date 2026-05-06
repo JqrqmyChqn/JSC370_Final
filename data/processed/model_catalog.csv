@@ -1,0 +1,25 @@
+model_class,model,feature_group,n_features_defined
+Linear Regression,Linear Regression | baseline,baseline,8
+Linear Regression,Linear Regression | baseline_plus_vix,baseline_plus_vix,13
+Linear Regression,Linear Regression | baseline_plus_epu,baseline_plus_epu,13
+Linear Regression,Linear Regression | baseline_plus_emeu,baseline_plus_emeu,13
+Linear Regression,Linear Regression | baseline_plus_vix_epu,baseline_plus_vix_epu,18
+Linear Regression,Linear Regression | baseline_plus_vix_emeu,baseline_plus_vix_emeu,18
+Linear Regression,Linear Regression | baseline_plus_epu_emeu,baseline_plus_epu_emeu,18
+Linear Regression,Linear Regression | full_uncertainty,full_uncertainty,23
+Random Forest,Random Forest | baseline,baseline,8
+Random Forest,Random Forest | baseline_plus_vix,baseline_plus_vix,13
+Random Forest,Random Forest | baseline_plus_epu,baseline_plus_epu,13
+Random Forest,Random Forest | baseline_plus_emeu,baseline_plus_emeu,13
+Random Forest,Random Forest | baseline_plus_vix_epu,baseline_plus_vix_epu,18
+Random Forest,Random Forest | baseline_plus_vix_emeu,baseline_plus_vix_emeu,18
+Random Forest,Random Forest | baseline_plus_epu_emeu,baseline_plus_epu_emeu,18
+Random Forest,Random Forest | full_uncertainty,full_uncertainty,23
+XGBoost,XGBoost | baseline,baseline,8
+XGBoost,XGBoost | baseline_plus_vix,baseline_plus_vix,13
+XGBoost,XGBoost | baseline_plus_epu,baseline_plus_epu,13
+XGBoost,XGBoost | baseline_plus_emeu,baseline_plus_emeu,13
+XGBoost,XGBoost | baseline_plus_vix_epu,baseline_plus_vix_epu,18
+XGBoost,XGBoost | baseline_plus_vix_emeu,baseline_plus_vix_emeu,18
+XGBoost,XGBoost | baseline_plus_epu_emeu,baseline_plus_epu_emeu,18
+XGBoost,XGBoost | full_uncertainty,full_uncertainty,23

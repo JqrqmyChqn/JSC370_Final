@@ -1,0 +1,13 @@
+target,ticker,model_class,feature_group,model,rmse,mae,r2,baseline_rmse_for_same_model_class,rmse_pct_change_vs_model_baseline
+future_vol_21d,SPY,Linear Regression,baseline,Linear Regression | baseline,0.0040876814429713,0.0026989981626463,0.3120442648502506,0.0040876814429713,0.0
+future_vol_21d,XLE,Linear Regression,baseline_plus_vix,Linear Regression | baseline_plus_vix,0.0053233689775443,0.0034238632601632,0.2038766154110737,0.0057440913806407,-7.324437847809316
+future_vol_21d,XLF,Linear Regression,baseline_plus_vix_epu,Linear Regression | baseline_plus_vix_epu,0.0045478800224992,0.0032926478449514,-0.0180179771312247,0.0045575706679958,-0.21262743251902064
+future_vol_21d,XLI,Linear Regression,baseline,Linear Regression | baseline,0.0036920407380876,0.002476299254896,0.1435666090144951,0.0036920407380876,0.0
+future_vol_21d,XLK,Random Forest,baseline_plus_epu_emeu,Random Forest | baseline_plus_epu_emeu,0.0049705416306561,0.0035108771502543,0.2839603981393503,0.0052859790712122,-5.967436425807926
+future_vol_21d,XLV,Linear Regression,baseline,Linear Regression | baseline,0.0028121577905901,0.0020199376045165,0.1837690098035865,0.0028121577905901,0.0
+future_vol_5d,SPY,XGBoost,baseline_plus_vix,XGBoost | baseline_plus_vix,0.0047351221187463,0.0031057489423797,0.3993508747919582,0.004888610916123,-3.139722101230906
+future_vol_5d,XLE,Random Forest,baseline_plus_vix,Random Forest | baseline_plus_vix,0.0069205180321832,0.0048895534053092,0.2241432652349178,0.0073351244365638,-5.652343160177193
+future_vol_5d,XLF,Random Forest,baseline_plus_vix,Random Forest | baseline_plus_vix,0.0053830639345227,0.0038883795812016,0.1951774466652271,0.005577569215225,-3.487276861959189
+future_vol_5d,XLI,XGBoost,baseline_plus_vix,XGBoost | baseline_plus_vix,0.0047503083385572,0.0033702126951457,0.2105534318197423,0.0049122860734726,-3.297400283548521
+future_vol_5d,XLK,Linear Regression,baseline_plus_vix,Linear Regression | baseline_plus_vix,0.0067487499128431,0.0047679158346583,0.2741254050092354,0.0069352646369186,-2.689367080278723
+future_vol_5d,XLV,Random Forest,baseline_plus_vix,Random Forest | baseline_plus_vix,0.0039142852959085,0.0030250793584999,0.1976818671168437,0.003931928127018,-0.44870685677767574

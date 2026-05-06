@@ -1,0 +1,4 @@
+split,min_date,max_date,n_rows,n_tickers
+train,2006-02-02,2018-12-31,19452,6
+validation,2019-01-02,2021-12-31,4542,6
+test,2022-01-03,2026-04-06,6402,6

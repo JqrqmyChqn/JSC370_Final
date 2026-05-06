@@ -1,0 +1,19 @@
+target,model_class,comparison,reference_feature_group,candidate_feature_group,reference_rmse,candidate_rmse,rmse_change,rmse_pct_change,improves_reference
+future_vol_21d,Linear Regression,EMEU after VIX,baseline_plus_vix,baseline_plus_vix_emeu,0.0044375612311484,0.0048912874276531,0.00045372619650469945,10.224674610005984,False
+future_vol_21d,Linear Regression,EPU after VIX,baseline_plus_vix,baseline_plus_vix_epu,0.0044375612311484,0.0045019013294907,6.434009834229999e-05,1.4498977026092632,False
+future_vol_21d,Linear Regression,Full uncertainty after VIX,baseline_plus_vix,full_uncertainty,0.0044375612311484,0.0049141817151885,0.0004766204840400993,10.740595097473264,False
+future_vol_21d,Random Forest,EMEU after VIX,baseline_plus_vix,baseline_plus_vix_emeu,0.0047948078491085,0.0048183501332233,2.3542284114799923e-05,0.49099536114209763,False
+future_vol_21d,Random Forest,EPU after VIX,baseline_plus_vix,baseline_plus_vix_epu,0.0047948078491085,0.0046845059833753,-0.00011030186573320055,-2.3004439219333683,True
+future_vol_21d,Random Forest,Full uncertainty after VIX,baseline_plus_vix,full_uncertainty,0.0047948078491085,0.0047435826817499,-5.12251673586003e-05,-1.0683466151438081,True
+future_vol_21d,XGBoost,EMEU after VIX,baseline_plus_vix,baseline_plus_vix_emeu,0.0047176461006588,0.0049997788523412,0.0002821327516824004,5.980371262757537,False
+future_vol_21d,XGBoost,EPU after VIX,baseline_plus_vix,baseline_plus_vix_epu,0.0047176461006588,0.0045938362620822,-0.00012380983857659955,-2.624398607587585,True
+future_vol_21d,XGBoost,Full uncertainty after VIX,baseline_plus_vix,full_uncertainty,0.0047176461006588,0.0049711668464717,0.0002535207458129003,5.373882237107551,False
+future_vol_5d,Linear Regression,EMEU after VIX,baseline_plus_vix,baseline_plus_vix_emeu,0.0056110762385989,0.0058338892291663,0.0002228129905674,3.9709492634346555,False
+future_vol_5d,Linear Regression,EPU after VIX,baseline_plus_vix,baseline_plus_vix_epu,0.0056110762385989,0.0056148044635381,3.728224939200664e-06,0.06644402572101946,False
+future_vol_5d,Linear Regression,Full uncertainty after VIX,baseline_plus_vix,full_uncertainty,0.0056110762385989,0.0058733328111138,0.00026225657251489985,4.673908558055629,False
+future_vol_5d,Random Forest,EMEU after VIX,baseline_plus_vix,baseline_plus_vix_emeu,0.0056401815498905,0.0057425703603239,0.00010238881043340021,1.815346004870854,False
+future_vol_5d,Random Forest,EPU after VIX,baseline_plus_vix,baseline_plus_vix_epu,0.0056401815498905,0.0057513553684928,0.00011117381860230053,1.9711035472689507,False
+future_vol_5d,Random Forest,Full uncertainty after VIX,baseline_plus_vix,full_uncertainty,0.0056401815498905,0.0057843212142485,0.00014413966435800063,2.5555855442419046,False
+future_vol_5d,XGBoost,EMEU after VIX,baseline_plus_vix,baseline_plus_vix_emeu,0.005617944949187,0.0058103441653738,0.00019239921618679958,3.4247259082637074,False
+future_vol_5d,XGBoost,EPU after VIX,baseline_plus_vix,baseline_plus_vix_epu,0.005617944949187,0.0056930128712646,7.506792207759988e-05,1.3362167617620269,False
+future_vol_5d,XGBoost,Full uncertainty after VIX,baseline_plus_vix,full_uncertainty,0.005617944949187,0.0057560861716369,0.00013814122244989926,2.4589280190417373,False

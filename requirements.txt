@@ -1,0 +1,11 @@
+pandas
+numpy
+yfinance
+pandas-datareader
+scikit-learn
+xgboost
+matplotlib
+plotly
+pygam
+joblib
+quarto

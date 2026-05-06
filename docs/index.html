@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Market-Implied vs News-Based Uncertainty</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 40px 24px;
+      line-height: 1.6;
+      color: #222;
+      background: #fafafa;
+    }
+
+    header {
+      margin-bottom: 36px;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 8px;
+      line-height: 1.15;
+    }
+
+    h2 {
+      margin-top: 36px;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 6px;
+    }
+
+    .subtitle {
+      font-size: 1.15rem;
+      color: #555;
+      margin-top: 0;
+    }
+
+    .card {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 22px;
+      margin: 18px 0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+
+    .button-row {
+      margin-top: 24px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 16px;
+      background: #1f4e79;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .button.secondary {
+      background: #555;
+    }
+
+    .finding {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      margin-top: 48px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Market-Implied vs News-Based Uncertainty</h1>
+    <p class="subtitle">
+      Predicting sector ETF volatility using VIX, EPU, and equity-market uncertainty
+    </p>
+
+    <div class="button-row">
+      <a class="button" href="viz.html">View Interactive Visualizations</a>
+      <a class="button secondary" href="report.pdf">Download Report</a>
+      <a class="button secondary" href="https://github.com/YOUR_USERNAME/YOUR_REPO_NAME">GitHub Repository</a>
+    </div>
+  </header>
+
+  <section class="card">
+    <h2>Project Overview</h2>
+    <p>
+      This project examines whether uncertainty signals improve forecasts of future sector ETF volatility beyond what can already be predicted from recent market behavior. Using daily data from 2006 to 2026, I compare three uncertainty signal families: VIX, Economic Policy Uncertainty (EPU), and Equity Market-related Economic Uncertainty (EMEU).
+    </p>
+    <p>
+      The models predict future realized volatility over two horizons: 5 trading days and 21 trading days. The same feature-set comparison is applied across Linear Regression, Random Forest, and XGBoost, allowing the project to evaluate both uncertainty signals and model structure.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Research Question</h2>
+    <p>
+      <strong>Do uncertainty signals improve out-of-sample forecasts of future sector ETF volatility beyond what can already be predicted from recent market behavior?</strong>
+    </p>
+    <p>
+      The project compares whether VIX, EPU, and EMEU improve forecasts relative to a market-history baseline, whether their value depends on model architecture, whether predictive value differs between 5-day and 21-day horizons, and whether certain sectors benefit more from uncertainty signals.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Key Findings</h2>
+    <p class="finding">
+      <strong>1. Market history is the strongest predictor.</strong>
+      Past volatility, recent returns, absolute returns, and volume changes form a strong baseline.
+    </p>
+    <p class="finding">
+      <strong>2. VIX is the most reliable uncertainty signal.</strong>
+      It improves 5-day forecasts across all six ETFs.
+    </p>
+    <p class="finding">
+      <strong>3. EPU has conditional value.</strong>
+      It is most useful at the 21-day horizon in some nonlinear models, but does not consistently improve short-horizon forecasts after VIX.
+    </p>
+    <p class="finding">
+      <strong>4. EMEU is not consistently useful.</strong>
+      It generally does not add reliable predictive value beyond VIX.
+    </p>
+    <p class="finding">
+      <strong>5. Sector matters.</strong>
+      Energy is the most uncertainty-sensitive sector, while Healthcare is the least responsive.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>Interactive Visualizations</h2>
+    <p>
+      The interactive visualizations summarize the main modeling results. They allow readers to compare feature families, inspect sector-level improvements, and evaluate how well the best models track realized volatility during the test period.
+    </p>
+    <p>
+      <a class="button" href="viz.html">Open Visualizations</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>
+      JSC370 Final Project. Website, report, code, and visualizations are available through the project repository.
+    </p>
+  </footer>
+</body>
+</html>
