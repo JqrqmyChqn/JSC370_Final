@@ -84,30 +84,30 @@
   <header>
     <h1>Market-Implied vs News-Based Uncertainty</h1>
     <p class="subtitle">
-      Predicting sector ETF volatility using VIX, EPU, and equity-market uncertainty
+      Predicting sector ETF volatility using VIX, EPU, and EMEU
     </p>
 
     <div class="button-row">
       <a class="button" href="viz.html">View Interactive Visualizations</a>
       <a class="button secondary" href="report.pdf">Download Report</a>
-      <a class="button secondary" href="https://github.com/YOUR_USERNAME/YOUR_REPO_NAME">GitHub Repository</a>
+      <a class="button secondary" href="https://github.com/JqrqmyChqn/JSC370_Final.git">GitHub Repository</a>
     </div>
   </header>
 
   <section class="card">
     <h2>Project Overview</h2>
     <p>
-      This project examines whether uncertainty signals improve forecasts of future sector ETF volatility beyond what can already be predicted from recent market behavior. Using daily data from 2006 to 2026, I compare three uncertainty signal families: VIX, Economic Policy Uncertainty (EPU), and Equity Market-related Economic Uncertainty (EMEU).
+      This project examines whether uncertainty signals improve forecasts of future sector ETF volatility beyond what can already be predicted from recent market behavior. Using daily data from 2006 to 2026, we compare three uncertainty signal families: VIX, Economic Policy Uncertainty (EPU), and Equity Market-related Economic Uncertainty (EMEU).
     </p>
     <p>
-      The models predict future realized volatility over two horizons: 5 trading days and 21 trading days. The same feature-set comparison is applied across Linear Regression, Random Forest, and XGBoost, allowing the project to evaluate both uncertainty signals and model structure.
+      The models predict future realized volatility over two horizons: 5 trading days and 21 trading days. The same feature-set comparison is applied across Linear Regression, Random Forest, and XGBoost, allowing the project to evaluate whether effects of certain uncertainty signals dependend on model structure.
     </p>
   </section>
 
   <section class="card">
     <h2>Research Question</h2>
     <p>
-      <strong>Do uncertainty signals improve out-of-sample forecasts of future sector ETF volatility beyond what can already be predicted from recent market behavior?</strong>
+      <strong>Do uncertainty signals improve out of sample ETF volatility forecasting beyond past market behavior?</strong>
     </p>
     <p>
       The project compares whether VIX, EPU, and EMEU improve forecasts relative to a market-history baseline, whether their value depends on model architecture, whether predictive value differs between 5-day and 21-day horizons, and whether certain sectors benefit more from uncertainty signals.
@@ -118,19 +118,19 @@
     <h2>Key Findings</h2>
     <p class="finding">
       <strong>1. Market history is the strongest predictor.</strong>
-      Past volatility, recent returns, absolute returns, and volume changes form a strong baseline.
+      Past volatility, recent returns, absolute returns, and volume changes form a strong baseline for forecasting future volatility, and dominates when used together with uncertainty signals.
     </p>
     <p class="finding">
       <strong>2. VIX is the most reliable uncertainty signal.</strong>
-      It improves 5-day forecasts across all six ETFs.
+      It improves 5-day forecasting across all six sectors, while improving 21-day forecasts in linear models.
     </p>
     <p class="finding">
       <strong>3. EPU has conditional value.</strong>
-      It is most useful at the 21-day horizon in some nonlinear models, but does not consistently improve short-horizon forecasts after VIX.
+      It is most useful at the 21-day horizon in some nonlinear models, but does not consistently improve short-horizon forecasts beyond VIX.
     </p>
     <p class="finding">
       <strong>4. EMEU is not consistently useful.</strong>
-      It generally does not add reliable predictive value beyond VIX.
+      It generally does not add reliable predictive value beyond VIX and market history.
     </p>
     <p class="finding">
       <strong>5. Sector matters.</strong>

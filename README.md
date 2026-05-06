@@ -11,13 +11,13 @@ This project compares market-implied uncertainty, broad news-based policy uncert
 
 ## Main Question
 
-Do news-based uncertainty measures add predictive value beyond recent realized volatility and VIX?
+Do uncertainty signals improve out of sample ETF volatility forecasting beyond past market behavior?
 
 ## Final Modeling Design
 
 The project predicts future realized volatility for six sector ETFs using two horizons: 5 trading days and 21 trading days. Predictors are grouped into market-history features, VIX features, EPU features, and EMEU features. For each uncertainty measure, the final feature set includes level, 5-day change, 21-day average, 252-day z-score, and 95th percentile spike.
 
-The same nested feature-set grid is fit for Linear Regression, Random Forest, and XGBoost. Models are evaluated on a held-out 2022-2026 test period using RMSE, MAE, and R².
+The same nested feature set grid is fit for three model classes: Linear Regression, Random Forest, and XGBoost. Models are evaluated on a held-out 2022-2026 test period using RMSE, MAE, and R².
 
 ## Reproduce
 

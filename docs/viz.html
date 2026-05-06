@@ -8,15 +8,15 @@
   <h1>Interactive Visualizations</h1>
 
   <h2>Model Improvement Explorer</h2>
-  <p>This plot shows whether uncertainty feature sets improve forecasts beyond each model class's market-history baseline.</p>
-  <iframe src="../figures/interactive/model_improvement_explorer.html" width="100%" height="800"></iframe>
+  <p>This visual compares model performance across different uncertainty signal families. Each bar represents a model (Colour) trained with a sepcific feature group (x-axis). The two dropdowns allow the user to switch between 5 and 21 day forecast horizon and different evaluation metrics (y-axis) to compare different model performances across those dimensions.</p>
+  <iframe src="figures/interactive/model_improvement_explorer.html" width="100%" height="800"></iframe>
 
   <h2>Sector Improvement Explorer</h2>
-  <p>This plot shows the best model improvement for each ETF and forecast horizon.</p>
-  <iframe src="../figures/interactive/sector_improvement_explorer.html" width="100%" height="800"></iframe>
+  <p>This visual shows the best performing model for each sector ETF (x-axis) and forecast horizon (dropdown), measured by RMSE percentage improvement (y-axis) relative to that model classes baseline. For example, since the best model for SPY, 5 day forecasting horizon is XGBoost using Baseline + VIX, the bar shows the RMSE percentage improvement from XGBoost using baseline. </p>
+  <iframe src="figures/interactive/sector_improvement_explorer.html" width="100%" height="800"></iframe>
 
   <h2>Prediction Explorer</h2>
-  <p>This plot compares actual and predicted future volatility for the selected ETF and forecast horizon.</p>
-  <iframe src="../figures/interactive/prediction_explorer.html" width="100%" height="850"></iframe>
+  <p>This visual shows how well the best model for each sector ETF (dropdown 1) and forecast horizon (dropdown 2) tracks realised future volatility during the held out test period (2022-2026). This visual allows users to visualise model testing performance over time, providing an understanding beyond a single metric.</p>
+  <iframe src="figures/interactive/prediction_explorer.html" width="100%" height="850"></iframe>
 </body>
 </html>
